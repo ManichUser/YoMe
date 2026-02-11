@@ -14,7 +14,7 @@ const server = http.createServer(app)
 // ✅ CORS sécurisé pour la production
 const allowedOrigins = [
   'http://localhost:5173',
-  "https://yu-me.vercel.app" ,
+  "https://yu-me.vercel.app",
   process.env.FRONTEND_URL 
 ].filter(Boolean)
 
